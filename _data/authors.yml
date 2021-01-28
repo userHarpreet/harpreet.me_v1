@@ -27,7 +27,7 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     twitter:         <username>
-    github:          <username>
+    github:          singhWeb
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
@@ -36,7 +36,7 @@ author1:
     # youtube:         <string_string_string>
     # vimeo:           <username>
     # vine:            <username>
-    # spotify:         <user>/<number>
+    spotify:           singHarry
     # soundcloud:      <username>
     # lastfm:          <username>
     # instagram:       <username>
@@ -57,12 +57,12 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    linkedin:          user-harpreetsingh
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
-    # paypal:          <username>
+    paypal:            atharpreet
     # download:        <url>
     # keybase          <username>
 
