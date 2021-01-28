@@ -26,9 +26,9 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
+    #twitter:         <username>
     github:          singhWeb
-    # email:           <mail@domain.tld>
+    email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -36,7 +36,7 @@ author1:
     # youtube:         <string_string_string>
     # vimeo:           <username>
     # vine:            <username>
-    spotify:           singHarry
+    spotify:           21fbup3gcxymzqajju5kayxqa
     # soundcloud:      <username>
     # lastfm:          <username>
     # instagram:       <username>
@@ -65,6 +65,7 @@ author1:
     paypal:            atharpreet
     # download:        <url>
     # keybase          <username>
+    whatsapp:          7009701629
 
 # Another author (optional)
 author2:

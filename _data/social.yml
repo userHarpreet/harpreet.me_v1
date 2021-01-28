@@ -30,7 +30,7 @@ whatsapp:
 spotify:
   name: Spotify
   icon: icon-spotify
-  prepend: "https://play.spotify.com/"
+  prepend: "https://play.spotify.com/user/"
 telegram:
   name: Telegram
   icon: icon-telegram
@@ -206,3 +206,7 @@ keybase:
 download:
   name: Download
   icon: icon-box-add
+whatsapp:
+  name: WhatsApp
+  icon: icon-whatsapp
+  prepend: "https://wa.me/91"
