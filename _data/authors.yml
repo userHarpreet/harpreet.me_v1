@@ -7,20 +7,12 @@ author1:
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |    
-    He is an entrepreneur, visionary, geek, fun-loving, lazy-ass, curious, innovative, bla bla bla...
-
-    He was quite curious about how stuff works since his childhood. So, once he stumbelled upon the feild
-    of electroincs and communication he felt in love with the hardware and settled down only after creating 
-    is own startup in the feild. Though he is jack of many trades like, H/w designing, progarmming, networking,
-    software developing, web designing, web developing, app developing, electrical, secrity devices, cooking,
-    driving, kite flying etc. etc. but he never consider himself master as he belives in that, "We born, learn
-    and then we die".
-
-    He is now a days Founder and CEO of mBEDed µSystems. It's providing services in technologies like Research and
-    Development, H/w Designing, µC Programming, Software Development, IoT, Mechine Learning etc.
-
-    Apart from this he sometimes like to cook for his family and travelling to highest peaks in the himalyas.
+  about:             |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    
+    Open `_data/authors.yml` to edit this text.
 
   # This photo will be used in the about section
   picture:
