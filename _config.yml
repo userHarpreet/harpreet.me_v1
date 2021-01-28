@@ -49,12 +49,15 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
+
+  - title:             About This Guy
     url:               /about/
+  - title:             Stuff He Did 
+    url:               /example/
+  - title:             Can Help You With
+    url:               /docs/
+  - title:             Ping Him
+    url:               /contact/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
