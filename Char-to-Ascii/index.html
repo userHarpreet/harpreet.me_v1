@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Keypress - Ascii</title>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+</head>
+<style>
+body {
+	 background: #4a2667;
+	font-family: 'Maven Pro', sans-serif;
+}
+	#result {
+	
+		font-size: 120px;
+		text-align: center;
+		font-weight: bold;
+		color: #f9d5ff
+	}
+	#result{
+  background: -webkit-linear-gradient(315deg, #aa3bb1, #582a7e);
+  background: linear-gradient(135deg, #aa3bb1, #582a7e);
+  min-width: 60%;
+  min-height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  box-shadow: 0 30px 50px -20px #2e0642;
+}
+	#result p{font-size: 60%; }
+	#result>div {float: left;
+    width: 40%;
+    padding: 5%;
+    font-size: 70px;
+    min-height: 180px;}
+	#result div span{
+		float: none;
+		width: 200px
+	}
+	.title {
+		font-size: 20px;
+	}
+	.mbls {
+		    width: 100%;
+    display: block;
+    overflow: hidden;
+    clear: both;
+	}
+	#mbl {display: none}
+@media only screen and (max-width: 800px) { 
+	#result { font-size: 70px;   min-width: 90%;  min-height: 70%}
+	#result div span{  font-size: 33px;}
+	#mbl {display: block;width: 100%;padding: 30px}
+}
+a {color: #fff}
+footer {    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;}
+</style>
+<body>
+
+<div id="result">
+	<p>Press any key</p>
+	<div>
+		<div class="title">Key Pressed</div>
+		<span  class="key"></span>
+	</div>
+	<div>
+		<div class="title">Ascii Value</div>
+		<span  class="ascii"></span>
+
+	</div>
+<span class="mbls"><input type="text" id="mbl"></span>
+</div>
+<footer>Fun Project by <a href="http://fb.com/mgorabbani">Golam Rabbani</a>| <a href="https://github.com/mgorabbani/Char-to-Ascii/blob/master/index.html">Source Code</a> </footer>
+<script>
+$(document).keypress(function(e){
+	e.preventDefault()
+	       $('.key').html(e.key)
+	       $('.ascii').html(e.which)
+	     //  $('#result>div>span').css('color',getRandomColor())
+   	if (e.which==32) 
+			$('.key').html("Space")
+  })
+$(document).keydown(function(f){ 
+	if (true) {
+		  $('.key').html(f.key)
+	       $('.ascii').html(f.which)
+	}
+})
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+</script>
+</body>
+</html>

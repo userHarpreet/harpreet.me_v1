@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://rabbani.dev/sitemap.xml
+Host: https://rabbani.dev
