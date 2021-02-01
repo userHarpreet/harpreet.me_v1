@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://rabbani.dev/sitemap.xml
-Host: https://rabbani.dev
+Sitemap: https://brittanychiang.com/sitemap.xml
+Host: https://brittanychiang.com
