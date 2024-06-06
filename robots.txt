@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://harpreet.me/sitemap.xml
-Host: https://harpreet.me
+Sitemap: https://harpreet.me/harpreet_v1/sitemap.xml
+Host: https://harpreet.me/harpreet_v1/
